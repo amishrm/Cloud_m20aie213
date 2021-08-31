@@ -18,7 +18,7 @@ app = Flask(__name__)
 app.secret_key = '5f352379324c22463451387a0aec5d2f'
 
 
-app.config['MYSQL_HOST'] = '10.0.2.15'
+app.config['MYSQL_HOST'] = '192.168.56.108'
 app.config['MYSQL_USER'] = 'amit'
 app.config['MYSQL_PASSWORD'] = 'Welcome@123'
 app.config['MYSQL_DB'] = 'amit'
